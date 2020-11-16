@@ -6,7 +6,7 @@ class ArticleSerializer(serializers.ModelSerializer):
     class Meta:
         model = Article
         fields = ('category',
-                  'response',
+                  'article_url',
                   'subcat_name',
                   'page_name',
                   'article_writer',

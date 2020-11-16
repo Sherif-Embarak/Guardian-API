@@ -4,7 +4,7 @@ from django.db import models
 
 class Article (models.Model):
     category = models.CharField(max_length=350, blank=False, default='')
-    response = models.CharField(max_length=350, blank=False, default='')
+    article_url = models.CharField(max_length=350, blank=False, default='')
     subcat_name = models.CharField(max_length=350, blank=False, default='')
     page_name = models.CharField(max_length=350, blank=False, default='')
     article_writer = models.CharField(max_length=350, blank=False, default='')
