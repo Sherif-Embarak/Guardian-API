@@ -9,6 +9,6 @@
 ##### 8- pip install -r requirements.txt
 ##### 8- python manage.py runserver 8080
 ### Guardian-API Usage:
-##### http://127.0.0.1:8080/api/articles?article_txt=(word_to_search)&writer=(writer_to_search)&return='list_of_feilds_to_return(separate_by_comma)'
+##### http://127.0.0.1:8080/api/articles?article_txt=(word_to_search)&writer=(writer_to_search)&return='list_of_fields_to_return(separate_by_comma)'
 ###### example : http://127.0.0.1:8080/api/articles?article_txt=president&writer=tom&return=article_txt,article_write
-###### feilds : article_txt,article_tile,article_writer,article_time,article_url,category,subcat
+###### fields : article_txt,article_tile,article_writer,article_time,article_url,category,subcat
